@@ -1007,7 +1007,7 @@ ERROR(module_not_compiled_for_private_import,none,
 
 ERROR(in_package_module_not_compiled_from_source,Fatal,
       "module %0 is in package %1 and can only be loaded if built from source",
-      (Identifier, Identifier))
+      (Identifier, StringRef))
 
 ERROR(import_restriction_conflict,none,
       "module %0 cannot be both "
